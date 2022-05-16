@@ -1,8 +1,10 @@
 # WordPress
 
 instructions
+
 this code is a bicep file that you need to upload into the azure CLI console.
 once you upload that code you need to paste this command into the powershell window with your information inserted into it. 
+
 New-AzResourceGroupDeployment -Name [Deployment Name] -ResourceGroupName [Resource Group Name] -TemplateFile [Path to File] -c
 
 it will ask you if you want to deploy all or no, put "A" in the line and hit enter, it will take awhile to work. eventually it will go through.
