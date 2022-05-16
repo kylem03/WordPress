@@ -1,6 +1,6 @@
 # WordPress
 
-instructions
+## Instructions
 
 this code is a bicep file that you need to upload into the azure CLI console.
 once you upload that code you need to paste this command into the powershell window with your information inserted into it. 
