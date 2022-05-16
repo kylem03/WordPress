@@ -72,4 +72,3 @@ resource Microsoft_Web_sites_config_siteName_web 'Microsoft.Web/sites/config@202
 
 
 ```
-New-AzResourceGroupDeployment -Name [Deployment Name] -ResourceGroupName [Resource Group Name] -TemplateFile [Path to File] -c
