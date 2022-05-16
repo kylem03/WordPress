@@ -1,8 +1,10 @@
 ## Description
+
 for my cloud computing project i chose to host wrodpress in azure, and using bicep i was able to automate it. i used PAAS for my project. using the CLI command line in azure i was able to use the IAC code for bicep installation. at first i manually build the project using azure MySQL database and MySQL workbench. using MySQL workbench i was able to link my azure MySQL database to my app service in azure portal. after i built it manually and it all confimred worked to make a wordpress site i decidedn that it is now time for automation to happen
 
 
-## Well architected framework
+# Well architected framework
+
 keeping to the well architected framwork was difficult, it was definitely something that i kept in the back of my mind towards the end of the project in order to meet
 the goals of the framework. i changed the kind of servers that i was running on to keep the cost down because as is i was blowing through the class budget rather quickly.
 the suggested size of server that azure says is not what you should use. reliability is quite good because it is automated with my script and it has worked everytime after i 
